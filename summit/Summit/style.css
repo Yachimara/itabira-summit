@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap";
+  }
+  
+  .cabecalho {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F37021;
+    padding: 8px;
+    z-index: 999;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.2rem;
+    list-style: none;
+  }
+  
+  .menu li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  a:hover {
+    color: #f6ab34;
+  }
+  
+  .conteudo {
+    margin-top: 48px 0px;
+    margin-left: 48px 0px;
+    margin-right: 48px 0px;
+  }
+  
+  #principal {
+    margin: 0px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #6F2c91;
+  }
+  
+  .texto-principal {
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .titulo-pagina {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 32px;
+  }
+  
+  
+  
+  .botoes {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  .conteudo h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #ffff;
+    font-size: 5rem;
+    font-weight: 900;
+    
+  }
+  .conteudo h3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #ffff;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  #botao-Simpla {
+    background-color: #8dc63f;
+    font-size: 22px;
+    color: #ec008c;
+    border: none;
+    border-radius: 15px;
+    width: 230px;
+    height: 48px;
+  }
+  
+   
+  #summit {
+    display: flex ;
+    flex-direction: column;
+    background-color: #8dc63f;
+    padding-top: 36px;
+    padding-bottom: 48px;
+  
+  }
+  
+  #Palestras {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #ec008c;
+    padding-top: 12px;
+    padding-bottom: 48px;
+  }
+   
+  
+  #carouselExampleAutoplaying p {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  #Palestras h2 {
+    color: aliceblue;
+    font-size: 36px;
+     padding: 1rem;
+  }
+  
+  #carouselExampleAutoplaying1 p {
+    display: flex;
+    justify-content: center;
+  }
+
+  .rodape {
+    display: flex;
+    justify-content: center;
+    background-color: #6F2c91;
+    padding: 12px;
+    color: #ffffff;
+  }
+      
+ #Realizadores {
+  background-color: #6F2c91;
+    padding-top: 12px;
+    padding-bottom: 48px;
+    color: #ffff;
+ }
+  
+  .autor {
+    text-align: right;
+    background-color: #F37021;
+  }
+  
